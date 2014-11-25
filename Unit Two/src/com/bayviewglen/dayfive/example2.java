@@ -1,0 +1,38 @@
+package com.bayviewglen.dayfive;
+
+import java.text.NumberFormat;
+import java.util.Locale;
+
+public class example2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		public static void main(String[] args) {
+			NumberFormat moneyFormatter = NumberFormat.getCurrencyInstance();
+			double x = 23.445654;
+			
+			System.out.println(moneyFormatter.format(x));
+			
+			
+			Locale locale = Locale.GERMANY;
+			moneyFormatter = NumberFormat.getCurrencyInstance(locale);
+			System.out.println(moneyFormatter.format(x));
+			
+			locale = Locale.CANADA_FRENCH;
+			moneyFormatter = NumberFormat.getCurrencyInstance(locale);
+			System.out.println(moneyFormatter.format(x));
+			
+			moneyFormatter = NumberFormat.getPercentInstance();
+			System.out.println(moneyFormatter.format(x));
+			
+	/*****
+	$23.45
+	23,45 €
+	23,45 $
+	2,345%
+	*/
+			
+	}
+
+}
