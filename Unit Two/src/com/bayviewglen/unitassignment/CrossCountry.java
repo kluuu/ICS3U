@@ -10,7 +10,7 @@ public class CrossCountry {
 
                Scanner keyboard = new Scanner(System.in);
                
-               //first player 
+               //first player
                System.out.print("Please enter your first name and last name: ");
                String name = keyboard.nextLine();
                
