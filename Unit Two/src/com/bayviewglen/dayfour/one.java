@@ -10,7 +10,7 @@ public class one {
 		 * 2. ascII Table
 		 * 3. Type casting char <---> int
 		 * 
-		 * doube Math.random() 
+		 * double Math.random() 
 		 * [0,1) 
 		 * 
 		 * Math.random() * 10
@@ -42,7 +42,7 @@ public class one {
 
 			System.out.println(letter);
 			
-			Math.
+			
 	}
 
 }
